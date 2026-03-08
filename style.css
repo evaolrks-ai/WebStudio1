@@ -166,3 +166,11 @@ h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-left: 20%;
 }
+.reviews {
+  width: 350px;
+height: 220px;
+padding: 15px 10px 20px 10px;
+margin-bottom: 30px;
+border: 2px dashed rgb(228, 119, 119);
+background-color: rgb(128, 184, 128);
+}
