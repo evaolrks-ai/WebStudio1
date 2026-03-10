@@ -9,8 +9,7 @@ body {
 }
 
 nav ul li a {
-  font-optical-sizing: auto;
-  margin-left: 100px;
+
   color: var(--black-color);
   text-decoration: none;
   list-style: none;
@@ -20,34 +19,39 @@ nav ul li a {
 nav ul {
   list-style: none;
 }
+ul{
+ display: flex;
+  gap: 30px;
+}
 
 .number {
   font-optical-sizing: auto;
-  margin-left: 100px;
+
   color: var(--secondary-color);
 }
 
 .email {
   font-optical-sizing: auto;
-  margin-left: 400px;
-  color: var(--primary-color);
+ 
+  color: var(--secondary-color);
 }
 
 h1 {
   font-family: "Raleway", sans-serif;
-  margin-left: 100px;
+  
   color: black;
 }
 
 header {
   display: flex;
-  width: 1600px;
+  width: 1500px;
   height: 80px;
+  justify-content: space-around;
 }
 
 .art1 {
   background-color: #2F303A;
-  width: 1600px;
+  width: 1500px;
   height: 600px;
 }
 
@@ -56,7 +60,7 @@ header {
   text-align: center;
   padding-top: 200px;
   font-size: 44px;
-  line-height: 1.36; /* 60 ÷ 44 */
+  line-height: 1.36; 
   letter-spacing: 6%;
   font-weight: 600;
 }
@@ -96,12 +100,14 @@ h2 {
 
 .art2 {
   display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.art2 img {
   width: 370px;
   height: 294px;
-  margin-left: 180px;
-  gap: 30px;
-  padding-top: 50px;
-  padding-bottom: 80px;
+  
 }
 
 .our-team {
@@ -111,7 +117,7 @@ h2 {
 
 .team {
   background-color: #F5F4FA;
-  width: 1600px;
+  width: 1500px;
   height: 648px;
   justify-content: center;
   align-items: center;
@@ -123,7 +129,6 @@ h2 {
   width: 270px;
   height: 368px;
   padding-top: 50px;
-  margin-left: 50px;
   text-align: center;
 }
 
@@ -135,13 +140,14 @@ h2 {
 .cards {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
+   flex-wrap: wrap;
 }
 
 .footer {
   padding-top: 20px;
   background-color: #2F303A;
-  width: 1600px;
+  width: 1500px;
   height: 252px;
 }
 
@@ -150,7 +156,7 @@ h2 {
   text-align: left;
   font-size: 26px;
   color: white;
-  padding-top: 30px;
+  padding-top: 20px;
   margin-left: 20%;
 }
 
@@ -165,12 +171,4 @@ h2 {
   text-align: left;
   color: rgba(255, 255, 255, 0.6);
   margin-left: 20%;
-}
-.reviews {
-  width: 350px;
-height: 220px;
-padding: 15px 10px 20px 10px;
-margin-bottom: 30px;
-border: 2px dashed rgb(228, 119, 119);
-background-color: rgb(128, 184, 128);
 }
